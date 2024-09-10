@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Main board -->
+  <rect x="5" y="5" width="90" height="90" fill="#0047AB" rx="5" ry="5"/>
+  
+  <!-- Mounting holes -->
+  <circle cx="10" cy="10" r="4" fill="#DAA520"/>
+  <circle cx="90" cy="10" r="4" fill="#DAA520"/>
+  <circle cx="10" cy="90" r="4" fill="#DAA520"/>
+  <circle cx="90" cy="90" r="4" fill="#DAA520"/>
+  
+  <!-- Chip -->
+  <rect x="35" y="35" width="30" height="30" fill="#303030"/>
+  
+  <!-- Pin labels -->
+  <text x="35" y="78" font-size="4" fill="white">3V3</text>
+  <text x="45" y="78" font-size="4" fill="white">GND</text>
+  <text x="55" y="78" font-size="4" fill="white">SCL</text>
+  <text x="65" y="78" font-size="4" fill="white">SDA</text>
+  
+  <!-- Pins (closer together) -->
+  <rect x="35" y="80" width="4" height="10" fill="silver"/>
+  <rect x="45" y="80" width="4" height="10" fill="silver"/>
+  <rect x="55" y="80" width="4" height="10" fill="silver"/>
+  <rect x="65" y="80" width="4" height="10" fill="silver"/>
+  
+  <!-- Logo placeholders -->
+  <rect x="10" y="70" width="15" height="15" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="75" y="70" width="15" height="15" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Chip name -->
+  <text x="50" y="20" font-size="10" fill="white" text-anchor="middle" font-weight="bold">ATECC608</text>
+  
+  <!-- Additional text -->
+  <text x="50" y="95" font-size="6" fill="white" text-anchor="middle">U1 R2</text>
+</svg>

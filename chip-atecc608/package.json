@@ -1,0 +1,22 @@
+{
+  "name": "chip-atecc608",
+  "version": "1.0.0",
+  "description": "ATECC608 Crypto Authentication chip for Wokwi",
+  "license": "MIT",
+  "dependencies": {},
+  "wokwi": {
+    "type": "chip",
+    "width": 90,
+    "height": 90,
+    "pinPattern": "1s1s",
+    "chip": {
+      "sourceFile": "atecc608.c",
+      "pinInfo": {
+        "3V3": { "name": "VCC", "type": "power" },
+        "GND": { "name": "GND", "type": "ground" },
+        "SCL": { "name": "SCL", "type": "i2c" },
+        "SDA": { "name": "SDA", "type": "i2c" }
+      }
+    }
+  }
+}

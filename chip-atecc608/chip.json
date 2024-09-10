@@ -1,0 +1,17 @@
+{
+  "name": "ATECC608 Crypto Authentication",
+  "author": "Deen Core",
+  "pins": [
+    "3V3",
+    "GND",
+    "SCL",
+    "SDA"
+  ],
+  "controls": [
+    {
+      "id": "chipname",
+      "label": "Chip Name",
+      "type": "text"
+    }
+  ]
+}
